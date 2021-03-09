@@ -12,7 +12,7 @@ function Login() {
     setPassword(event.target.value);
   };
   const handleLogIn = (event) => {
-    event.preventDefualt();
+    event.preventDefault();
     if (email === "abenabennett.gmail.com" && password === "0123")
       setLoggedIn(true);
   };
