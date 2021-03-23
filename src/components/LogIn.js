@@ -18,7 +18,7 @@ function Login() {
   };
 
   const handleLogOut = (event) => {
-    setLoggedIn(true);
+    setLoggedIn(false);
   };
   return (
     <div>
